@@ -37,6 +37,3 @@ class App:
     def quit(cls):
         cls.driver.quit()
 
-
-get = App
-get.start()
