@@ -1,0 +1,9 @@
+{'platformName': 'android', 'deviceName': 'seveniruby', 'appPackage': 'com.xueqiu.android', 'appActivity': '.view.WelcomeActivityAlias', 'app': 'D:\\Users\\yab\\PycharmProjects\\test_packages\\xueqiu.apk', 'autoGrantPermissions': 'true', 'showChromedriverLog': True, 'noReset': True}
+click
+('id', 'com.xueqiu.android:id/profile_image')
+click
+('xpath', "//*[@text='帐号密码登录']")
+('id', 'com.xueqiu.android:id/login_account')
+('id', 'com.xueqiu.android:id/login_password')
+click
+('id', 'com.xueqiu.android:id/button_next')

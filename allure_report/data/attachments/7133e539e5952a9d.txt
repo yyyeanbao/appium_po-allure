@@ -1,0 +1,39 @@
+{'platformName': 'android', 'deviceName': 'seveniruby', 'appPackage': 'com.xueqiu.android', 'appActivity': '.view.WelcomeActivityAlias', 'app': 'D:\\Users\\yab\\PycharmProjects\\test_packages\\xueqiu.apk', 'autoGrantPermissions': 'true', 'showChromedriverLog': True, 'noReset': True}
+click
+('id', 'com.xueqiu.android:id/profile_image')
+click
+('xpath', "//*[@text='帐号密码登录']")
+:exception
+('id', 'com.xueqiu.android:id/tv_agree')
+('id', 'com.xueqiu.android:id/tv_agree') not found
+('id', 'image_cancel')
+('id', 'image_cancel') not found
+('id', 'tips')
+('id', 'tips') not found
+('id', 'com.xueqiu.android:id/iv_delete_text')
+('id', 'com.xueqiu.android:id/iv_delete_text') not found
+('id', 'com.xueqiu.android:id/ib_close')
+('id', 'com.xueqiu.android:id/ib_close') not found
+:exception
+('id', 'com.xueqiu.android:id/tv_agree')
+('id', 'com.xueqiu.android:id/tv_agree') not found
+('id', 'image_cancel')
+('id', 'image_cancel') not found
+('id', 'tips')
+('id', 'tips') not found
+('id', 'com.xueqiu.android:id/iv_delete_text')
+('id', 'com.xueqiu.android:id/iv_delete_text') not found
+('id', 'com.xueqiu.android:id/ib_close')
+('id', 'com.xueqiu.android:id/ib_close') not found
+('xpath', "//*[@text='帐号密码登录']")
+:exception
+('id', 'com.xueqiu.android:id/tv_agree')
+('id', 'com.xueqiu.android:id/tv_agree') not found
+('id', 'image_cancel')
+('id', 'image_cancel') not found
+('id', 'tips')
+('id', 'tips') not found
+('id', 'com.xueqiu.android:id/iv_delete_text')
+('id', 'com.xueqiu.android:id/iv_delete_text') not found
+('id', 'com.xueqiu.android:id/ib_close')
+('id', 'com.xueqiu.android:id/ib_close') not found
