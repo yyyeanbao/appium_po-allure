@@ -4,18 +4,26 @@ from UI_Auto.page2.base_page import BasePage
 
 
 class LoginPage(BasePage):
-
+    _clear_location = (By.ID, "com.xueqiu.android:id/iv_delete_text")
+    _account_location = (By.ID, "com.xueqiu.android:id/login_account")
+    _pwd_location = (By.ID, "com.xueqiu.android:id/login_password")
+    _c_location = (By.ID, "com.xueqiu.android:id/button_next")
+    _user_error = (By.XPATH, "//*[@text='用户名或密码错误']")
+    _user_error_sure = (By.XPATH, "//*[@text='确定']")
     def login1(self,accout,passwd):
-        clear_location = (By.ID, "com.xueqiu.android:id/iv_delete_text")
-        account_location = (By.ID, "com.xueqiu.android:id/login_account")
-        pwd_location = (By.ID, "com.xueqiu.android:id/login_password")
-        c_location = (By.ID, "com.xueqiu.android:id/button_next")
         sleep(5)
-        self.find_element_init(account_location).send_keys(accout)
-        self.find_element_init(pwd_location).send_keys(passwd)
-        self.find_element_and_click(c_location)
+        self.find_element_init(self._account_location).send_keys(accout)
+        self.find_element_init(self._pwd_location).send_keys(passwd)
+        self.find_element_and_click(self._c_location)
         return self
 
+    def login_fail(self,accout,passwd):
+        sleep(5)
+        self.find_element_init(self._account_location).send_keys(accout)
+        self.find_element_init(self._pwd_location).send_keys(passwd)
+        self.find_element_and_click(self._c_location)
+        self.find_element_init(self._user_error)
+        self.find_element_and_click(self._user_error_sure)
 
 
     def get_login_index(self):

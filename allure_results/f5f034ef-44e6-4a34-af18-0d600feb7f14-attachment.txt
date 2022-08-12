@@ -1,0 +1,5 @@
+{'platformName': 'android', 'deviceName': 'seveniruby', 'appPackage': 'com.xueqiu.android', 'appActivity': '.view.WelcomeActivityAlias', 'app': 'D:\\Users\\yab\\PycharmProjects\\test_packages\\xueqiu.apk', 'autoGrantPermissions': 'true', 'showChromedriverLog': True, 'noReset': True}
+click
+('id', 'com.xueqiu.android:id/profile_image')
+click
+('id', 'com.xueqiu.android:id/iv_setting')

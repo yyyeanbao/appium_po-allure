@@ -2,6 +2,11 @@
 click
 ('id', 'com.xueqiu.android:id/profile_image')
 click
-('id', 'com.xueqiu.android:id/iv_setting')
+('xpath', "//*[@text='帐号密码登录']")
+('id', 'com.xueqiu.android:id/login_account')
+('id', 'com.xueqiu.android:id/login_password')
 click
-('id', 'com.xueqiu.android:id/md_buttonDefaultPositive')
+('id', 'com.xueqiu.android:id/button_next')
+('xpath', "//*[@text='用户名或密码错误']")
+click
+('xpath', "//*[@text='确定']")
